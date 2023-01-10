@@ -1,7 +1,10 @@
 export default {
+  // Target: https://go.nuxtjs.dev/config-target
+  target: 'static',
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'workbench-brand',
+    title: 'wb-four',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -36,8 +39,6 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    // https://go.nuxtjs.dev/content
-    '@nuxt/content',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -52,9 +53,6 @@ export default {
       lang: 'en'
     }
   },
-
-  // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

@@ -16,6 +16,13 @@
         <p class="mt-4 pt-4 text-gray-800 border-t border-dashed">
           To get started, remove <code class="bg-gray-100 text-sm p-1 rounded border">components/Tutorial.vue</code> and start coding in <code class="bg-gray-100 text-sm p-1 rounded border">pages/index.vue</code>. Have fun!
         </p>
+
+        <!-- added test item for scss here -->
+        <div class="justatest">
+          <p>cats</p>
+        </div>
+
+        
       </div>
       <div class="flex justify-center pt-4 space-x-2">
         <a href="https://github.com/nuxt/nuxt.js" target="_blank"><svg
@@ -50,3 +57,9 @@ export default {
   name: 'NuxtTutorial'
 }
 </script>
+
+<style lang="scss">
+.justatest {
+  background-color: red;
+}
+</style>

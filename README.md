@@ -1,4 +1,4 @@
-# workbench-brand
+# wb-four
 
 ## Build Setup
 
