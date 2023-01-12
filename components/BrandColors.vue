@@ -1,4 +1,6 @@
 <template>
+
+    <!-- I added hover effects to this page to stay consistant with flag page -->
     <div class="grid">
         <div class="colorcard" :style="'background-color: #'+color.Hex" v-for="(color,id) in colors" :key="id">
             <h3 :class="{darktext:color.hasDarkText}" class="colortitle">{{ color.Name }}</h3>

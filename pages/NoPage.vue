@@ -1,4 +1,5 @@
 <template>
+    <!-- created simple 404 page -->
     <div class="nopage text-center align-middle">
         <h1>Uh oh!</h1>
         <p>You landed a page that does not exist. Please select another page. Thanks!</p>
