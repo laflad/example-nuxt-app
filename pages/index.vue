@@ -1,12 +1,22 @@
 <template>
-  <Tutorial/>
+  <HomePage/>
 </template>
 
 <script>
+import HomePage from './HomePage.vue';
+
 export default {
-  name: 'IndexPage'
+    name: "IndexPage",
+    components: { HomePage }
 }
 </script>
 
 <style lang="scss">
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #555;
+  margin: 2rem auto;
+  }
+  
 </style>
