@@ -20,6 +20,9 @@ export default {
 
 </script>
 
+<!-- I added the active class inside the top nav class 
+This created the condition to only apply to header nav and not footer -->
+
 <style lang="scss">
 .maintitle {
     color: #006887;

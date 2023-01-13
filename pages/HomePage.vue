@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- simple landing page using flex grid to create side by side compartments for visuals -->
         <h3 class="apptagline">The number one rated DIY community app!</h3>
         <div class="landingpage">
             <div class="homeleft">

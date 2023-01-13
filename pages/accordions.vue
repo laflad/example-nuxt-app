@@ -5,8 +5,7 @@
         <p>Explore benefits of the type of pets below.</p>
   
         <!-- Accordion loop -->
-        <!-- Thank you for your help with this one!! Much appreciated! -->
-        
+        <!-- added a little bit of styling for interest -->
         <div class="accordion m-5 w-50 mx-auto" id="accordionExample">
           <div class="accordion-item addspace" v-for="item in items"
                 :key="item.id">

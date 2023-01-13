@@ -1,16 +1,19 @@
 <template>
-    <div class="wrapper">
-      <h1 class="heading">Countries of Europe</h1>
-      <section class="container" v-if="countries">
-        <card
-          v-for="country of countries"
-          :key="country.id"
-          :country="country"
-        />
-      </section>
-  
-     
-    </div>
+  <!-- applying API from previous assignment -->
+  <div class="wrapper">
+    <h1 class="heading">Countries of Europe</h1>
+    
+    <!-- using v-if to call for API data -->
+    <section class="container" v-if="countries">
+      <card
+        v-for="country of countries"
+        :key="country.id"
+        :country="country"
+      />
+    </section>
+
+    
+  </div>
 </template>
 
 <script>

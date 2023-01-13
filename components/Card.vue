@@ -1,4 +1,5 @@
 <template>
+    <!-- I added some hover effects -->
     <div class="cardeffect">
         <article class="card">
             <img :src="country.flag" :alt="country.name" class="card__img">
