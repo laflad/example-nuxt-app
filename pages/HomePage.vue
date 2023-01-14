@@ -18,10 +18,17 @@
 </template>
 
 <script>
-
+export default {
+    head: {
+    titleTemplate: '%s | Home',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Workbench app links and marketing image page' },
+    ],
+  }
+}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .apptagline {
     padding-top: 2rem;
     display: flex;

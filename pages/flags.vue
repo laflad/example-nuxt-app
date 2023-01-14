@@ -37,8 +37,13 @@ mounted () {
         this.errored = true
     })
     .finally(() => this.loading = false)
-}
-
+},
+head: {
+    titleTemplate: '%s | Flags API',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Demonstrating how to use API' },
+    ],
+  }
 }
 </script>
 

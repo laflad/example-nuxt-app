@@ -7,10 +7,17 @@
 </template>
 
 <script>
-
+export default {
+    head: {
+    titleTemplate: '%s | 404',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Page not found' },
+    ],
+  }
+}
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .nopage {
     padding-top: 4rem;
     color: #006887;

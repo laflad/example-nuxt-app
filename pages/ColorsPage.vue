@@ -12,11 +12,17 @@ import BrandColors from "../components/BrandColors.vue"
 export default {
     components: {
         BrandColors
-    }
+    },
+    head: {
+    titleTemplate: '%s | Colors',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Workbench brand colors and their specifications' },
+    ],
+  }
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .heading {
     text-align: center;
     font-size: 2rem;

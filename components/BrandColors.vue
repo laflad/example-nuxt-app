@@ -81,7 +81,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: left;
-    justify-content: end;
+    justify-content: flex-end;
     color: white;
     padding: 1rem;
     line-height: 15px;

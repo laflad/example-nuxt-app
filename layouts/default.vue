@@ -10,6 +10,15 @@
 
 <script>
 export default {
-    components: true
+  components: true,
+  head: {
+    title: 'Workbench Brand',
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'Workbench Brand Site', name: 'Workbench Brand', content: 'Workbench brand guidelines' },
+      { name: 'format-detection', content: 'telephone=no' }
+    ],
+  }
 }
 </script>

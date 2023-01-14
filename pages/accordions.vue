@@ -69,11 +69,17 @@ name: 'AccordionPage',
 props: {
     msg: String
 },
+head: {
+    titleTemplate: '%s | Bootstrap Accordions',
+    meta: [
+      { hid: 'description', name: 'description', content: 'Bootstrap makes accordions easy' },
+    ],
+  }
 
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .addspace {
   padding-bottom: .5rem;
 }
